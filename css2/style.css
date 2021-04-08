@@ -1,0 +1,73 @@
+*{
+    background-color: whitesmoke;
+}
+
+nav ul li
+{
+    display: inline-block;
+
+}
+
+nav ul li :first-child
+{
+    float: left;
+}
+
+#second-div
+{
+    float : right;
+}
+#headering
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul li p
+{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+#second-para
+{
+    font-size: 10px;
+    color: darkgray;
+}
+#print
+{
+    float: right;
+    font-size: 10px;
+    color: darkgray;
+}
+#chocolate
+{
+    margin-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px ;
+
+}
+#text
+{
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+
+}
+#container
+{
+    position: relative;
+    text-align: center;
+}
+#first-div
+{
+    position: absolute;
+    text-align: left;
+    float: left;
+    padding-bottom: 10px;
+}
+#second-div
+{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    text-align: right;
+}
