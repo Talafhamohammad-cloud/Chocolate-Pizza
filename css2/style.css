@@ -40,15 +40,15 @@ nav ul li p
 #chocolate
 {
     margin-top: 30px;
-    padding-left: 50px;
-    padding-right: 50px ;
+    padding-left: 25%;
+    padding-right: 25% ;
 
 }
 #text
 {
     text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 25%;
+    padding-right: 25%;
     padding-top: 30px;
 
 }
@@ -56,18 +56,44 @@ nav ul li p
 {
     position: relative;
     text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 #first-div
 {
-    position: absolute;
-    text-align: left;
-    float: left;
-    padding-bottom: 10px;
+    display: inline;
+    margin-top: 10%;
+    margin: auto;
 }
 #second-div
 {
-    position: absolute;
-    top: 8px;
-    right: 16px;
-    text-align: right;
+    display: inline;
+    margin-top: -20%;
+    margin-right: 30%;
+}
+#venessa{
+    float: left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#venim{
+    float: left;
+
+}
+#share{
+    float: right;
+    padding-right: 27%;
+    color: antiquewhite;
+
+}
+#bt{
+    background-color: brown;
+    width: 4cm;
+    height: 1.2cm;
+    color: bisque;
+
+}
+footer{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2.5%;
 }
