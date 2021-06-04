@@ -1,99 +1,175 @@
-*{
-    background-color: whitesmoke;
+body {
+    margin: 2% 10%;
 }
 
-nav ul li
-{
+nav {
+    margin-bottom: 50px;
+}
+
+nav * {
     display: inline-block;
-
 }
 
-nav ul li :first-child
-{
-    float: left;
+nav #logo p {
+    display: block;
 }
 
-#second-div
-{
-    float : right;
-}
-#headering
-{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-nav ul li p
-{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+#logo * {
+    margin: 0;
 }
 
-#second-para
-{
-    font-size: 10px;
-    color: darkgray;
-}
-#print
-{
+#icons {
     float: right;
-    font-size: 10px;
-    color: darkgray;
+    margin-top: 33px;
 }
-#chocolate
-{
-    margin-top: 30px;
-    padding-left: 25%;
-    padding-right: 25% ;
 
+#logo h1 {
+    font-family: 'Pacifico', cursive;
 }
-#text
-{
-    text-align: center;
-    padding-left: 25%;
-    padding-right: 25%;
-    padding-top: 30px;
 
+.img-hr {
+    background-image: url(/assets/hr-img.png);
+    background-repeat: repeat;
+    height: 20px;
+    border: 0;
+    margin: 0;
 }
-#container
-{
-    position: relative;
-    text-align: center;
-    padding-left: 25%;
-    padding-right: 25%;
+
+#rss {
+    margin-left: 10px;
 }
-#first-div
-{
-    display: inline;
-    margin-top: 10%;
-    margin: auto;
-}
-#second-div
-{
-    display: inline;
-    margin-top: -20%;
-    margin-right: 30%;
-}
-#venessa{
+
+h2 {
+    font-size: 42px;
+    margin: 50px 0 0 5px;
     float: left;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#venim{
-    float: left;
 
+#header-div p {
+    clear: both;
+    font-family: Arial, Helvetica, sans-serif;
 }
-#share{
+
+#print {
     float: right;
-    padding-right: 27%;
-    color: antiquewhite;
+}
+
+#print p {
+    margin: 0;
+}
+
+#big-picture {
+    clear: both;
+}
+
+#print * {
+    display: inline-block;
+}
+
+#big-picture img {
+    width: 100%;
+}
+
+#list {
+    background-size: cover;
+    width: 100%;
+    height: 270px;
+    background-image: url(/assets/list-bg.png);
+    margin: 50px 0;
+    background-repeat: no-repeat;
+}
+
+#list * {
+    display: inline-block;
+    font-family: cursive;
+    color: #c29a66;
+    font-size: 900;
+    font-weight: 900;
+}
+
+#ing-2 {
+    padding-left: 550px;
+    line-height: 2.5;
+    padding-top: 20px;
+}
+
+#ing-1 {
+    line-height: 2.5;
+    padding-top: 20px;
+    padding-left: 70px;
+}
+
+#profile {
+    box-sizing: border-box;
+}
+
+#profile img {
+    float: left;
+}
+
+
+#footer-head {
+    clear: both;
+}
+
+#footer-head img {
+    margin-right: 50%;
+    margin-left: 50%;
 
 }
-#bt{
-    background-color: brown;
-    width: 4cm;
-    height: 1.2cm;
-    color: bisque;
 
+.logo {
+    margin-right: 50%;
+    margin-left: 50%;
 }
-footer{
+
+#footer-head {
+    margin-top: 50px;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+#profile a {
+    float: right;
+    color: ivory;
     text-align: center;
-    padding-top: 5%;
-    padding-bottom: 2.5%;
+    background-color: #bc7058;
+    padding: 15px;
+    width: 150px;
+    text-decoration: none;
+}
+
+#profile h3,
+p {
+    margin-left: 80px;
+}
+
+footer p {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+h2,
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    margin: 10px;
+
+}
+
+p {
+    color: rgb(122, 121, 121);
+    margin: 0;
+
+}
+
+#big-picture p {
+    font-family: Georgia,
+        'Times New Roman',
+        Times,
+        serif;
+    font-weight: 600;
+    color: rgb(145, 139, 139);
 }
